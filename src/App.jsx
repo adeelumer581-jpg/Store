@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { ToastProvider } from './context/ToastContext.jsx';
 import { CartProvider } from './context/CartContext.jsx';
 import { OrdersProvider } from './context/OrdersContext.jsx';
@@ -9,6 +9,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import CartDrawer from './components/CartDrawer.jsx';
 import ToastContainer from './components/Toast.jsx';
+import Concierge from './components/Concierge.jsx';
 
 const Home = lazy(() => import('./pages/Home.jsx'));
 const Shop = lazy(() => import('./pages/Shop.jsx'));
@@ -89,6 +90,7 @@ function StorefrontShell() {
       <Footer />
       <CartDrawer />
       <ToastContainer />
+      <Concierge />
     </div>
   );
 }
