@@ -1,0 +1,6 @@
+{
+  "name": "Bare & Bloom by Robaha | Skincare",
+  "description": "Clean, dermatologist-tested botanical skincare crafted for Pakistani skin and climate. Shop serums, cleansers, toners, and daily rituals with nationwide Cash on Delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

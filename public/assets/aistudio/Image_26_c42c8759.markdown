@@ -1,0 +1,231 @@
+---
+name: Bare & Bloom Organic Luxury
+colors:
+  surface: '#fcf9f2'
+  surface-dim: '#dcdad3'
+  surface-bright: '#fcf9f2'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3ec'
+  surface-container: '#f1eee7'
+  surface-container-high: '#ebe8e1'
+  surface-container-highest: '#e5e2db'
+  on-surface: '#1c1c18'
+  on-surface-variant: '#434844'
+  inverse-surface: '#31312c'
+  inverse-on-surface: '#f3f0e9'
+  outline: '#747873'
+  outline-variant: '#c3c8c2'
+  surface-tint: '#566158'
+  primary: '#18231b'
+  on-primary: '#ffffff'
+  primary-container: '#2d3830'
+  on-primary-container: '#95a197'
+  inverse-primary: '#bdcabe'
+  secondary: '#506353'
+  on-secondary: '#ffffff'
+  secondary-container: '#d3e8d4'
+  on-secondary-container: '#566959'
+  tertiary: '#1a221d'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#303732'
+  on-tertiary-container: '#98a099'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d9e6da'
+  primary-fixed-dim: '#bdcabe'
+  on-primary-fixed: '#131e17'
+  on-primary-fixed-variant: '#3e4941'
+  secondary-fixed: '#d3e8d4'
+  secondary-fixed-dim: '#b7ccb9'
+  on-secondary-fixed: '#0e1f13'
+  on-secondary-fixed-variant: '#394b3c'
+  tertiary-fixed: '#dde5dd'
+  tertiary-fixed-dim: '#c0c9c1'
+  on-tertiary-fixed: '#161d18'
+  on-tertiary-fixed-variant: '#414943'
+  background: '#fcf9f2'
+  on-background: '#1c1c18'
+  surface-variant: '#e5e2db'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '400'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '400'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 28px
+  subheading-editorial:
+    fontFamily: Playfair Display
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.02em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.04em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+  price-headline:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 24px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+The brand embodies an understated, botanical luxury tailored for the discerning Pakistani consumer seeking clean, clinically validated organic skincare. The visual narrative balances earthy purity with sophisticated apothecary discipline.
+
+### Personality & Emotional Resonance
+- **Tactile Calm:** Evoking the serenity of morning dew on herbal foliage and smooth travertine stone.
+- **Rooted Authenticity:** Grounded, conscious formulations honoring indigenous botanical heritage through a modern high-end lens.
+- **Purity & Trust:** Reassurance through generous negative space, deliberate typographic pacing, and whisper-quiet organic neutrals rather than clinical sterility.
+
+### Aesthetic Movement
+**Minimalist Organic Luxury:** High-contrast editorial typography paired with ultra-clean surfaces, micro-borders, and tactile pill geometry. Interfaces rely on breathing room, soft tonal hierarchy, and rich botanical color blocking to create an aspirational, boutique shopping experience.
+
+## Colors
+The palette draws directly from raw travertine stone, cured botanical resins, and crushed sage foliage. 
+
+- **Primary (`#2D3830` - Dark Forest):** Used for primary conversion touchpoints, high-emphasis action triggers, header bars, and primary badges. Conveys deep botanical authority and grounding.
+- **Secondary (`#8FA391` - Herbarium Sage):** Accents, active category filters, active indicators, and secondary illustrative borders.
+- **Tertiary (`#DCE4DC` - Soft Sage Tint):** Subtle structural fills, active chip backgrounds, badge backdrops, and promotional micro-surfaces.
+- **Neutral Canvas (`#F6F3EC` - Travertine Cream):** The global viewport background, offering an organic warmth superior to cold pure white.
+- **Surface Pure (`#FFFFFF`):** High-layer elevation for product cards, floating modals, slide-overs, and bottom sheets to ensure clear item separation against travertine backgrounds.
+- **Text Ink (`#232924` - Charcoal Ink):** Primary editorial copy, titles, and high-readability price displays.
+- **Text Muted (`#5C665E` - Muted Slate):** Ingredient percentages, PKR tax notations, metadata, and placeholder copy.
+
+## Typography
+Typographic rhythm relies on an intentional juxtaposition between classical editorial romance and precise, humanist geometry.
+
+- **Editorial Headlines (`Playfair Display`):** Renders high-tier collection titles, storytelling narratives, and hero banners. Provides an architectural, high-couture aesthetic.
+- **Accents & By-lines (`subheading-editorial`):** Styled strictly in italics with delicate tracking for brand sign-offs (e.g., *"By Robaha"*), origin certificates, and botanical extraction methods.
+- **Interface & Commerce Engine (`Plus Jakarta Sans`):** Clean, open letterforms engineered for quick scanning across product specifications, PKR pricing breakdowns, and checkout sequences.
+- **Pakistani Currency Conventions:** Prices must always prefix the regional code (e.g., `PKR 4,850`) using `label-lg` or `price-headline` with zero decimal places for whole rupees.
+
+## Layout & Spacing
+The layout architecture enforces expansive luxury spacing to prevent visual clutter and accentuate product packaging.
+
+### Grid Architecture
+- **Desktop (1200px+):** 12-column responsive grid with `margin: 3rem` (48px) and `gutter: 1.5rem` (24px). Maximum container width is constrained to `1320px` to maintain comfortable eye-tracking distance.
+- **Tablet (768px - 1199px):** 8-column responsive grid with `margin: 2rem` (32px) and `gutter: 1.25rem` (20px).
+- **Mobile (< 768px):** 4-column responsive grid with `margin-mobile: 1.25rem` (20px) and `gutter-mobile: 1rem` (16px).
+
+### Section Rhythms
+- Product detail pages and long-form narrative modules separate content blocks using `space-xl` (48px) on mobile and double `space-xl` (96px) on desktop to mirror high-fashion printed publications.
+- Form inputs, card clusters, and filter carousels maintain compact rhythmic flow via `space-md` and `space-sm`.
+
+## Elevation & Depth
+In alignment with the clean organic philosophy, drop shadows are heavily restricted in favor of structural layer boundaries and translucent glass treatments.
+
+- **Primary Surfaces:** Pure white `#FFFFFF` cards sit directly over the `#F6F3EC` travertine canvas, creating depth purely through tone and value separation.
+- **Tonal Borders:** When needed, cards, input frames, and dialog dividers employ a subtle 1px border using `#8FA391` at 20% opacity (`rgba(143, 163, 145, 0.20)`).
+- **Floating Modals & Drawers:** Filter panels, cart slide-outs, and quick-add modals use a deep botanical ambient shadow: `box-shadow: 0 16px 40px -12px rgba(45, 56, 48, 0.08)`.
+- **Botanical Blur Layer:** Sticky navigation bars and floating mobile action anchors use a frosted travertine glass backdrop: `background: rgba(246, 243, 236, 0.85); backdrop-filter: blur(12px)`.
+
+## Shapes
+The shape philosophy merges geometric softness with ergonomic ease. 
+
+- **Standard Containers & Cards:** Set to `rounded-xl` (1.5rem / 24px) to gently frame product imagery, clinical review cards, and promotional callouts without looking childish.
+- **Interactive Action Items:** Primary buttons, search inputs, active filter badges, and toast notifications feature a complete `rounded-full` (9999px) pill shape, reinforcing the smooth pebble and water-droplet identity of clean skincare.
+- **Thumbnails & Media Previews:** Medium roundedness (0.75rem / 12px) to maintain balance alongside the exterior card curves.
+
+## Components
+
+### Buttons
+- **Primary Action (Add to Cart / Checkout):** Background `#2D3830` with `#FFFFFF` text. Fully pill-shaped (`rounded-full`). Padding: `14px 28px`. Hover: Background transitions to `#3D4C41` with smooth 200ms ease. Focus: 2px offset outline in `#8FA391`.
+- **Secondary Action (Discover / Learn More):** Outlined pill with 1.5px border in `#2D3830`, transparent background, and `#232924` text. Hover fills to `#DCE4DC` with zero border jump.
+- **Text & Link Actions:** Plain `#232924` text with an animated 1px underline in `#8FA391`, floating 4px beneath the baseline.
+
+### Chips & Badges
+- **Status & Organic Claims ("100% Halal", "Wildcrafted Bakuchiol"):** Background `#DCE4DC`, text `#2D3830`, font `label-sm`, rounded-full pill shape. Vertical padding: 4px; horizontal padding: 12px.
+- **Filter Tags:** Inactive filters use `#FFFFFF` background with 1px border of `rgba(143, 163, 145, 0.3)`. Active filters use `#2D3830` background with `#FFFFFF` text.
+
+### Product Cards
+- **Structure:** Pure white `#FFFFFF` surface, `rounded-xl` shape, subtle 1px border in `rgba(143, 163, 145, 0.15)`.
+- **Image Container:** Aspect ratio 4:5 with an integrated soft neutral background (`#F0EDE6`) and smooth inset radii.
+- **Content Hierarchy:** Category tag in uppercase `label-sm` (`#5C665E`), product title in `headline-sm` (`#232924`), extraction detail in `subheading-editorial` (`#8FA391`), and bold price format in `price-headline` (e.g., `PKR 6,400`).
+
+### Form Inputs & Selectors
+- **Input Fields:** Minimum height 48px, background `#FFFFFF`, rounded-full pill contour. Border: 1px solid `rgba(143, 163, 145, 0.35)`. Internal padding: `12px 20px`.
+- **Focus State:** Border shifts to solid `#8FA391` with zero fuzzy focus rings, preserving minimal editorial discipline.
+- **Labels:** Positioned outside the input field in `label-md` tracking using `#232924`.
+
+### Selection Controls
+- **Radio Buttons & Checkboxes:** Circular elements with 20px diameter. Checked state utilizes a solid `#2D3830` fill with a pure white micro-checkmark or center pip. Unchecked states feature an unadorned 1.5px ring in `#8FA391`.
+
+### Specialized Commerce Components
+- **PKR Currency Display:** Uniform treatment with the currency designation capitalized in `label-sm` (`PKR`) accompanied by tabular numbers for rapid price comparison across the catalog.
+- **Ingredient Accordion:** Edge-to-edge list item separated by 1px rules in `#DCE4DC`. Expanded state reveals an organic cream inset container (`#FBF9F6`) detailing botanical origins and safe synthetic clarifications.
