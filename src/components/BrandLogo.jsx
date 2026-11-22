@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
 import logoAsset from '../assets/logo.png';
 
 export default function BrandLogo({ className = '', sizeClass = 'h-[60px] md:h-[72px]' }) {
