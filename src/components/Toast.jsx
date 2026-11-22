@@ -1,4 +1,3 @@
-import React from 'react';
 import { Check, AlertCircle, X } from 'lucide-react';
 import { useToast } from '../context/ToastContext.jsx';
 import { useCart } from '../context/CartContext.jsx';
