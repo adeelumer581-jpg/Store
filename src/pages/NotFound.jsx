@@ -1,4 +1,3 @@
-import React from 'react';
 import { navigate } from '../router/hashRouter.js';
 
 export default function NotFound({
