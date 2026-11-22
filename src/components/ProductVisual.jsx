@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * Renders crisp inline-SVG botanical apothecary packaging on #F0EDE6 with zero external image requests.
  * If an owner later populates `product.images[idx].src`, it seamlessly renders that image with lazy loading.
