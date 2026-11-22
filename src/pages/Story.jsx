@@ -1,4 +1,3 @@
-import React from 'react';
 import { STORE_CONFIG } from '../config/store.js';
 import { navigate } from '../router/hashRouter.js';
 
