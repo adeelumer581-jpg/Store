@@ -48,7 +48,7 @@ export default function ProductCard({ product }) {
         <div className="flex items-center justify-between gap-2 text-[11px] font-semibold uppercase tracking-[0.08em] text-[#5C665E] mb-1.5">
           <span>
             {product.category}
-            {defaultVariant ? ` · ${defaultVariant.label}` : ''}
+            {defaultVariant ? ` \u00B7 ${defaultVariant.label}` : ''}
           </span>
           {badgeText && (
             <span className="text-[#2D3830]">{badgeText}</span>
