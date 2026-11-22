@@ -1,4 +1,3 @@
-import React from 'react';
 import { formatPKR } from '../lib/pricing.js';
 import { getProductById, getVariantOrDefault } from '../data/products.js';
 import ProductVisual from './ProductVisual.jsx';
