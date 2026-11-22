@@ -8,6 +8,13 @@ A mobile-first, Instagram and Facebook in-app browser optimized e-commerce store
 - **Authoritative PKR Pricing Engine**: Unified `calcTotals()` in `src/lib/pricing.js` powering the Cart Drawer, Checkout, Order Confirmation, and saved orders. Supports `GLOW10` (10% off merchandise subtotal) and free nationwide shipping at `PKR 3,000` (computed after discount), otherwise flat `PKR 200`.
 - **Pakistani Checkout & Order Receiving**: Validates and normalizes `+92 3XX XXXXXXX` mobile numbers, 5-digit postal codes, optional email, Cash on Delivery (default), and Bank Transfer / Raast / JazzCash / EasyPaisa placeholder instructions. Generates unique `#BB-XXXXX` order IDs, sends orders to an optional Google Apps Script webhook with offline retry queue, and provides a one-tap **Confirm your order on WhatsApp** link.
 - **Order Tracking**: Local lookup by `#BB-XXXXX`, `BB-XXXXX`, or `XXXXX` with estimated fulfillment timeline (`Order Placed` -> `Confirmed` -> `Packed` -> `Out for Delivery` -> `Delivered`).
+- **AI Skincare Concierge**: Floating chat widget (`src/components/Concierge.jsx`) backed by a server-side Gemini endpoint (`server/index.js`, `POST /api/chat`). The concierge grounds itself in the live product catalog and store policies at request time — prices and shipping rules in its answers always match the storefront. When the app is hosted as static files (no server) or the API key is missing, the widget degrades gracefully and points customers to the WhatsApp concierge.
+
+## Repository Quality Automation
+
+- **CI (GitHub Actions)**: every push and PR runs `lint` (ESLint 9 flat config), `typecheck` (TypeScript), unit tests (node:test via tsx, including server contract tests), a production build, and a server boot smoke test.
+- **One-shot local gate**: `npm run check` runs lint + typecheck + test + build exactly as CI does.
+- **Formatting**: Prettier (`npm run format`); React 19 automatic JSX runtime — no `import React` needed.
 
 ## Pre-Launch Owner Checklist
 
@@ -36,11 +43,15 @@ npm install
 # Run development server (port 3000)
 npm run dev
 
-# Run pure-logic unit tests
-npx --yes tsx --test src/lib/logic.test.js
+# Run unit tests (pricing/validation logic + server contracts)
+npm test
 
 # Build production bundle into /dist
 npm run build
+
+# Serve the built storefront + AI concierge locally
+cp .env.example .env   # add your GEMINI_API_KEY
+npm start              # Express server on :3000 (serves dist/ + POST /api/chat)
 ```
 
 ## Static Hosting Deployment (`/dist`)
