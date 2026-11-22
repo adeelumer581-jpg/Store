@@ -1,4 +1,3 @@
-import React from 'react';
 import { Check } from 'lucide-react';
 import { getEstimatedOrderStatus, ORDER_TIMELINE_STEPS } from '../lib/orderService.js';
 
