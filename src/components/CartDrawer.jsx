@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
+
 import { Trash2, X, ShoppingBag, Truck } from 'lucide-react';
 import { useCart } from '../context/CartContext.jsx';
 import { getProductById, getVariantOrDefault } from '../data/products.js';
