@@ -1,4 +1,3 @@
-import React from 'react';
 import BrandLogo from './BrandLogo.jsx';
 import { STORE_CONFIG } from '../config/store.js';
 import { navigate, navigateToHomeSection } from '../router/hashRouter.js';
