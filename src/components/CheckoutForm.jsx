@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+
 import { Lock } from 'lucide-react';
 import { STORE_CONFIG } from '../config/store.js';
 import { formatPKR } from '../lib/pricing.js';
