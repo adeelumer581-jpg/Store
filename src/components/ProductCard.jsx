@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
+
 import ProductVisual from './ProductVisual.jsx';
 import { formatPKR } from '../lib/pricing.js';
 import { getVariantOrDefault, getBundleSavings } from '../data/products.js';
@@ -47,7 +48,7 @@ export default function ProductCard({ product }) {
         <div className="flex items-center justify-between gap-2 text-[11px] font-semibold uppercase tracking-[0.08em] text-[#5C665E] mb-1.5">
           <span>
             {product.category}
-            {defaultVariant ? ` \u00B7 ${defaultVariant.label}` : ''}
+            {defaultVariant ? ` · ${defaultVariant.label}` : ''}
           </span>
           {badgeText && (
             <span className="text-[#2D3830]">{badgeText}</span>
