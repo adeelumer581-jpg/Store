@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+
 import { Menu, ShoppingBag, X } from 'lucide-react';
 import BrandLogo from './BrandLogo.jsx';
 import { useCart } from '../context/CartContext.jsx';
