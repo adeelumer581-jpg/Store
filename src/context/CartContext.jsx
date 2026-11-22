@@ -1,13 +1,12 @@
-import React, {
-  createContext,
+import { createContext,
   useCallback,
   useContext,
   useEffect,
   useMemo,
   useReducer,
   useRef,
-  useState,
-} from 'react';
+  useState, } from 'react';
+
 import { getProductById, getVariantOrDefault } from '../data/products.js';
 import { calcTotals, validatePromoCode } from '../lib/pricing.js';
 import { safeGet, safeSet, STORAGE_KEYS } from '../lib/storage.js';
